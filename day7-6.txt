@@ -1,0 +1,7 @@
+#!/binbash/ -x
+
+read -p "enter first value : " 2;
+read -p "enter second value : " 3;
+z=$(($2+$3));
+printf "$2 + $3 = $z"
+

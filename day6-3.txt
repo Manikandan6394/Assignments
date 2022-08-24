@@ -1,0 +1,34 @@
+#!/bin/bash -x
+
+echo "Enter the Number"
+read n
+
+days=$n
+
+case $days in
+                01 )
+                echo sunday
+                ;;
+                02 )
+                echo monday
+                ;;
+                03 )
+                echo tuesday
+                ;;
+                04 )
+                echo wednesday
+                ;;
+                05 )
+                echo Thursday
+                ;;
+                06 )
+                echo Friday
+                ;;
+                07 )
+                echo Saturday
+                ;;
+                * )
+                echo  Enter number 1 to 7
+                ;;
+esac
+
